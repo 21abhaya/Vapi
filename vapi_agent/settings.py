@@ -124,4 +124,4 @@ USE_TZ = True
 STATIC_URL = 'static/'
 
 
-VAPI_PUBLIC_KEY = os.getenv('VAPI_PUBLIC_KEY')
+VAPI_API_KEY = os.getenv('VAPI_API_KEY')
