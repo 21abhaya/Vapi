@@ -1,0 +1,14 @@
+{"message": ["assistantId must be a UUID"], "error": "Bad Request", "statusCode": 400}
+{"statusCode": 400, "message": "Couldn't Get Phone Number. Need Either `phoneNumberId` Or `phoneNumber`.", "error": "Bad Request", "subscriptionLimits": {"concurrencyBlocked": false, "concurrencyLimit": 10, "remainingConcurrentCalls": 9}}
+{"message": ["customer.number must be a valid phone number in the E.164 format. Hot tip, you may be missing the country code (Eg. US: +1)."], "error": "Bad Request", "statusCode": 400}
+{"message": ["customer.number must be a valid phone number in the E.164 format. Hot tip, you may be missing the country code (Eg. US: +1)."], "error": "Bad Request", "statusCode": 400}
+{"message": ["customer.number must be a valid phone number in the E.164 format. Hot tip, you may be missing the country code (Eg. US: +1)."], "error": "Bad Request", "statusCode": 400}
+{"message": ["customer.number must be a valid phone number in the E.164 format. Hot tip, you may be missing the country code (Eg. US: +1)."], "error": "Bad Request", "statusCode": 400}
+{"statusCode": 400, "message": "Couldn't Get Phone Number. Need Either `phoneNumberId` Or `phoneNumber`.", "error": "Bad Request", "subscriptionLimits": {"concurrencyBlocked": false, "concurrencyLimit": 10, "remainingConcurrentCalls": 9}}
+{"statusCode": 400, "message": "Couldn't Get Phone Number. Need Either `phoneNumberId` Or `phoneNumber`.", "error": "Bad Request", "subscriptionLimits": {"concurrencyBlocked": false, "concurrencyLimit": 10, "remainingConcurrentCalls": 9}}
+{"statusCode": 400, "message": "Couldn't Get Phone Number. Need Either `phoneNumberId` Or `phoneNumber`.", "error": "Bad Request", "subscriptionLimits": {"concurrencyBlocked": false, "concurrencyLimit": 10, "remainingConcurrentCalls": 9}}
+{"statusCode": 400, "message": "Couldn't Get Phone Number. Need Either `phoneNumberId` Or `phoneNumber`.", "error": "Bad Request", "subscriptionLimits": {"concurrencyBlocked": false, "concurrencyLimit": 10, "remainingConcurrentCalls": 9}}
+{"statusCode": 400, "message": "Couldn't Get Phone Number. Need Either `phoneNumberId` Or `phoneNumber`.", "error": "Bad Request", "subscriptionLimits": {"concurrencyBlocked": false, "concurrencyLimit": 10, "remainingConcurrentCalls": 9}}
+{"message": ["customer.number must be a valid phone number in the E.164 format. Hot tip, you may be missing the country code (Eg. US: +1)."], "error": "Bad Request", "statusCode": 400}
+{"message": ["customer.number must be a valid phone number in the E.164 format. Hot tip, you may be missing the country code (Eg. US: +1)."], "error": "Bad Request", "statusCode": 400}
+{"message": ["customer.number must be a valid phone number in the E.164 format. Hot tip, you may be missing the country code (Eg. US: +1)."], "error": "Bad Request", "statusCode": 400}
