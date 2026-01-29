@@ -7,7 +7,7 @@
         "provider": "11labs"
     },
     "createdAt": "2026-01-28T16:54:52.534Z",
-    "updatedAt": "2026-01-28T17:03:42.887Z",
+    "updatedAt": "2026-01-29T16:40:38.727Z",
     "model": {
         "model": "gpt-4o",
         "messages": [

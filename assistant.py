@@ -90,7 +90,7 @@ data = {
 response = requests.patch(url, headers=headers, json=data)
 assistant = response.json()
 
-with open("assistant_response.json", "a") as json_file:
+with open("assistant_response.json", "w") as json_file:
     json.dump(assistant, json_file, indent=4)
 
-print(f"Assistant created with ID: {assistant['id']}")
+print(f"Assistant's first message: {assistant['firstMessage']}")
