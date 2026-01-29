@@ -94,3 +94,33 @@ with open("assistant_response.json", "w") as json_file:
     json.dump(assistant, json_file, indent=4)
 
 print(f"Assistant's first message: {assistant['firstMessage']}")
+
+
+# Configure LLM settings
+def update_assistant_llm_settings(assistant_id):
+    url = f"https://api.vapi.ai/assistant/{assistant_id}"
+    headers = {
+        "Authorization": f"Bearer {api_key}",
+        "Content-Type": "application/json"
+    }
+    
+    data = {
+        "model": {
+            "provider": "openai",
+            "model": "gpt-4o",
+            "temperature": 0.7,
+            "maxTokens": 150,
+            "messages": [
+                {
+                    "role": "system",
+                    "content": "You are Tom, VapiBank's customer support assistant..."
+                }
+            ]
+        }
+    }
+    
+    response = requests.patch(url, headers=headers, json=data)
+    return response.json()
+
+assistant = update_assistant_llm_settings(assistant_id)
+print("Assistant LLM settings updated:", assistant)
