@@ -19,7 +19,7 @@ def test_assistant_with_call(assistant_id):
     data = {
         "assistantId": assistant_id,
         "customer": {
-            "number": "+1234567890"  # Your test number
+            "number": "+1234567890"  # Not Working
         }
     }
     
